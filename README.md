@@ -102,5 +102,5 @@ API stands for Application Programming Interface,they allow apps to communicate 
 - This is where a call is made to a server using an API, information is sent out and then processed back to you
 
 
-Looking For Merge Changes, fourth attempt
+Looking For Merge Changes, first attempt
 
