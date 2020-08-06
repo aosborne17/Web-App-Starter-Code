@@ -37,13 +37,49 @@ as integration tools like Maven must be installed to use
 ## Creating A Jenkis webhook on Github
 
 1. We must first direct to the settings area of our chosen repository and then click on webhook and add webhook
-2. Once here we must paste the URL of the Jenkins environment we are working on
+2. Once here we must paste the URL of the Jenkins environment we are working on into box and click 'update webhook'
+
+![webhook](images/updating-webhook.png)
 
 
 ## Configuring on Jenkins
 
 1. Create a branch named 'develop' 
-2.
+
+2. Once on the Jenkins server, locate to the configure page and make the following changes
+
+
+![configure](images/configure-page.png)
+
+**General**
+
+![configure](images/build-configure.png)
+
+**Office 365 connector**
+will connect our build to our email, thus when a build takes place the developer is notified
+on the results
+
+![configure](images/office-connector-configure.png)
+This will connect our build to our email, thus when a build takes place the developer is notified
+on the results
+
+
+**Source Code Management**
+
+![configure](images/source-code-management.png)
+
+
+**Build Triggers And Environments**
+![configure](images/build-triggers-and-environment.png)
+
+
+**Build And Post Builds**
+![configure](images/build-and-post-builds.png)
+
+
+**Email Notifications**
+![configure](images/E-mail-notifications.png)
+
 
 ## What is a webhook
 
