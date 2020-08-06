@@ -42,7 +42,8 @@ as integration tools like Maven must be installed to use
 
 ## Configuring on Jenkins
 
-Create a branch named 'develop' 
+1. Create a branch named 'develop' 
+2.
 
 ## What is a webhook
 
