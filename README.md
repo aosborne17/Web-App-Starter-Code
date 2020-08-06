@@ -39,6 +39,11 @@ as integration tools like Maven must be installed to use
 1. We must first direct to the settings area of our chosen repository and then click on webhook and add webhook
 2. Once here we must paste the URL of the Jenkins environment we are working on
 
+
+## Configuring on Jenkins
+
+Create a branch named 'develop' 
+
 ## What is a webhook
 
 A webhook is a way for an application to provide other application with real-time information, delivering data to other
